@@ -13,41 +13,11 @@ you probably want to adjust the `remoteAddress`.
 
 ## Install
 
-The requirements of TS3Proxy are:
-
-- Python 3
-- PyYAML
-
-Just unzip the latest release (or master branch) zip file and open a terminal
-in the unzipped folder and do the following steps.
-
-### Recommended installation
-
-The recommended way to install TS3Proxy is using the `setup.py`. This script
-automatically calls pip (the Python package manager). Pip installs the
-`ts3proxy` package to the Python site-packages and creates a script called
-`ts3proxy` in your executable path.
-
-```bash
-sudo ./setup.sh
-```
-
-And just run it afterwards with an NON-ROOT user via command line:
-
-```bash
-ts3proxy
-```
-
-### Alternative installation: only install dependencies
-
 Install all dependencies:
 
 ```bash
-apt-get install python3-yaml
+apt-get install python3 python3-yaml -y
 ```
-
-If you don't want to install TS3Proxy itself, you have to start the proxy with
-a more complex command:
 
 ```bash
 python3 -m ts3proxy
