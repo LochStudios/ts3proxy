@@ -1,4 +1,9 @@
-# TS3Proxy
+# CHANGED
+Hi this fork has been changed to suit how I need this to work, if you need the orignal code please head over to:
+
+https://github.com/Kandru/ts3proxy
+
+## TS3Proxy
 
 TS3Proxy aims to be a complete solution for a TeamSpeak 3 proxy. It allows you
 to hide the original location of your TeamSpeak 3 server and may be a good
