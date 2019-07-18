@@ -8,9 +8,6 @@ https://github.com/Kandru/ts3proxy
 It's configured by `config.yml`. This file contains a section for every
 component.
 
-If you are new to TS3Proxy and have a default TeamSpeak configuration,
-you probably want to adjust the `remoteAddress`.
-
 ## Install
 
 Install all dependencies:
