@@ -23,3 +23,7 @@ Running the program:
 ```bash
 python3 -m ts3proxy
 ```
+or
+```bash
+ts3proxy
+```
