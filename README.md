@@ -15,6 +15,8 @@ cd /home/ts3proxy
 sudo chmod u+x setup.sh
 
 ./setup.sh
+
+alias ts3proxy='cd /home/ts3proxy && python3 -m ts3proxy'
 ```
 Running the program:
 
