@@ -3,40 +3,13 @@ Hi this fork has been changed to suit how I need this to work, if you need the o
 
 https://github.com/Kandru/ts3proxy
 
-## TS3Proxy
-
-TS3Proxy aims to be a complete solution for a TeamSpeak 3 proxy. It allows you
-to hide the original location of your TeamSpeak 3 server and may be a good
-choice to defeat DDoS attacks. Just use multiple instances for different kind
-of people (like admins, moderators, members and guests) on different virtual
-machines (in different data centers of course). And it's ideal for users that
-want to hide their original client IP address.
-
-Features:
-
-  - Proxy TS3 UDP Port
-  - Proxy TS3 Filetransfer Port
-  - Proxy TS3 Serverquery Port
-  - Announce Proxy to Teamspeak 3 Weblist (with working client counter)
-
 ## Configuration
 
-TS3Proxy is configured by `config.yml`. This file contains a section for every
-component of TS3Proxy.
+It's configured by `config.yml`. This file contains a section for every
+component.
 
 If you are new to TS3Proxy and have a default TeamSpeak configuration,
 you probably want to adjust the `remoteAddress`.
-
-- Each component can be activated or deactivated by setting `enabled` to either
-`True` or `False`.
-- The `relayAddress` and `relayPort` describe the address where the proxy
-listens for user data. If `relayAddress` is `0.0.0.0`, the proxy listens on
-all interfaces.
-- The `remoteAddress` and `remotePort` describe the TeamSpeak 3 server
-address. The `remoteAddress` can be either a hostname or an IP address.
-
-Note that the file transport has to have the same port on both sides
-(`relayPort` and `remotePort`). Otherwise the file transfer will not work.
 
 ## Install
 
