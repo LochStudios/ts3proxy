@@ -10,10 +10,16 @@ component.
 
 ## Install
 
-Install all dependencies:
-
 ```bash
-apt-get install python3 python3-yaml -y
+cd /home/
+
+git clone https://github.com/LochStudios/ts3proxy.git
+
+cd /home/ts3proxy
+
+sudo chmod u+x setup.sh
+
+./setup.sh
 ```
 Running the program:
 
