@@ -3,11 +3,6 @@ Hi this fork has been changed to suit how I need this to work, if you need the o
 
 https://github.com/Kandru/ts3proxy
 
-## Configuration
-
-It's configured by `config.yml`. This file contains a section for every
-component.
-
 ## Install
 
 ```bash
