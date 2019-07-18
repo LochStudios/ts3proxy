@@ -19,13 +19,3 @@ apt-get install python3 python3-yaml -y
 ```bash
 python3 -m ts3proxy
 ```
-
-
-### Editable installation: only for developers
-
-If you are a developer and might want to use the `ts3proxy` script, you can
-install this package in editable mode by using the `-e` option:
-
-```bash
-pip3 install -e .
-```
