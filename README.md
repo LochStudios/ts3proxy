@@ -33,18 +33,6 @@ address. The `remoteAddress` can be either a hostname or an IP address.
 Note that the file transport has to have the same port on both sides
 (`relayPort` and `remotePort`). Otherwise the file transfer will not work.
 
-
-### Blacklist / Whitelist
-
-The blacklist or whitelist can be used to ban proxy users by IP address or to only allow
-specific users to use the proxy. If you use the whitelist, the blacklist will
-be ignored. All entries in the whitelist will be able to use the proxy, every
-other IP will be blocked.
-
-The list files (`blacklist.txt` and `whitelist.txt`) contain one IP address
-per line. The files should be created in the folder that contains `config.yml`.
-
-
 ## Install
 
 The requirements of TS3Proxy are:
