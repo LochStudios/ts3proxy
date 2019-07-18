@@ -15,6 +15,7 @@ Install all dependencies:
 ```bash
 apt-get install python3 python3-yaml -y
 ```
+Running the program:
 
 ```bash
 python3 -m ts3proxy
